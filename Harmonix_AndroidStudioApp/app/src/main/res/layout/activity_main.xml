@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F1C0EE">
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bun venit la Harmonix!\nÎnvață să cânți la pian cu plăcere!"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Butonul Usor -->
+    <Button
+        android:id="@+id/btn_usor"
+        android:layout_height="wrap_content"
+        android:text="Usor"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#1E3A8A"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:shape="rectangle" />
+
+    <!-- Butonul Mediu -->
+    <Button
+        android:id="@+id/btn_mediu"
+        android:layout_height="wrap_content"
+        android:text="Mediu"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#1E3A8A"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:shape="rectangle" />
+
+    <!-- Butonul Avansat -->
+    <Button
+        android:id="@+id/btn_avansat"
+        android:layout_height="wrap_content"
+        android:text="Avansat"
+        android:backgroundTint="#1E3A8A"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:shape="rectangle" />
+</LinearLayout>

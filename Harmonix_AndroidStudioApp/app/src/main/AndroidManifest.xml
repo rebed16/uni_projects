@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Harmonix">
+        <activity
+            android:name=".Song"
+            android:exported="false" />
+        <activity
+            android:name=".twinkletwinkle"
+            android:exported="false" />
+        <activity
+            android:name=".BemolDiez"
+            android:exported="false" />
+        <activity
+            android:name=".QuizzMediu"
+            android:exported="false" />
+        <activity
+            android:name=".CheiaFa"
+            android:exported="false" />
+        <activity
+            android:name=".Quizz"
+            android:exported="false" />
+        <activity
+            android:name=".NoteleMuzicaleSiDurata"
+            android:exported="false" />
+        <activity
+            android:name=".Pauze"
+            android:exported="false" />
+        <activity
+            android:name=".PianoIntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- MainActivity NU mai e launcher -->
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Usor" />
+        <activity android:name=".Mediu" />
+        <activity android:name=".Avansat" />
+    </application>
+
+</manifest>

@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F1C0EE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acum să vedem așezarea notelor pe portativ în cheia fa! Sunt aceleași note din cheia sol!"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+
+        <ImageView
+            android:id="@+id/cheia_fa_portativ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cheia_fa_portativ"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Să comparăm poziția notelor în cheia fa și cheia sol!"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/cheia_fa_vs_cheia_sol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cheia_fa_vs_cheia_sol"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="24dp" />
+        <Button
+            android:id="@+id/listens"
+            android:layout_height="wrap_content"
+            android:text="Ascultă cheia sol"
+            android:backgroundTint="#1E3A8A"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:shape="rectangle"/>
+        <Button
+            android:id="@+id/listenf"
+            android:layout_height="wrap_content"
+            android:text="Ascultă cheia fa"
+            android:backgroundTint="#1E3A8A"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:shape="rectangle"/>
+
+        <Button
+            android:id="@+id/bemoldiez"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:backgroundTint="#1E3A8A"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:shape="rectangle"/>
+    </LinearLayout>
+</ScrollView>

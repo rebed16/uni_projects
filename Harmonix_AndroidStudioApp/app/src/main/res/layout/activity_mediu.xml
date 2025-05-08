@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F1C0EE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acum că știi notele muzicale să învățăm difrența între cheia sol și cheia fa!"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cheia sol și cheia fa indică poziții diferite ale notelor pe portativ, fiind folosite pentru registre sonore diferite."
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/cheia_sol"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/cheia_sol"
+                    android:adjustViewBounds="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cheia sol"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/cheia_fa"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/cheia_fa"
+                    android:adjustViewBounds="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cheia fa"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cheia sol se folosește pentru instrumente și voci cu sunete înalte, ca vioara sau soprana."
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cheia fa se folosește pentru sunete grave, cum ar fi cele ale violoncelului sau basului."
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+        <Button
+            android:id="@+id/play_cheiafa"
+            android:layout_height="wrap_content"
+            android:text="Ascultă imbinarea celor 2 chei"
+            android:backgroundTint="#1E3A8A"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:shape="rectangle"/>
+        <Button
+            android:id="@+id/next_fa"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:backgroundTint="#1E3A8A"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:shape="rectangle"/>
+    </LinearLayout>
+</ScrollView>

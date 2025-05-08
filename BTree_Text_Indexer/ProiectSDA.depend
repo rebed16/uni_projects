@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1737619339 source:c:\users\rebed\desktop\proiectsda\main.cpp
+	"BTree.h"
+	<fstream>
+	<sstream>
+	<cctype>
+	<algorithm>
+
+1737618592 c:\users\rebed\desktop\proiectsda\btree.h
+	<string>
+	<vector>
+	<iostream>
+	<fstream>
+
+1737555708 source:c:\users\rebed\desktop\proiectsda\btree.cpp
+	"BTree.h"
+

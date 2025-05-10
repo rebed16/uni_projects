@@ -30,7 +30,7 @@ The app was built using:
 
 ---
 
-## 🎹 Piano Learning Android App (Java, Groovy, Android Studio)
+## 🎹 Piano Learning Android App (Java, Android Studio)
 
 This Android application is designed to help users learn to play the piano in an interactive way. It includes:
 - **Three learning levels**: Beginner, Intermediate, and Advanced

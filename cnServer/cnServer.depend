@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1741886381 source:c:\users\rebed\desktop\cnserver\main.cpp
+	<winsock2.h>
+	<iostream>
+
+1741889217 source:c:\users\rebed\onedrive\documents\cnserver\main.cpp
+	<winsock2.h>
+	<iostream>
+	<io.h>
+	<ws2tcpip.h>
+

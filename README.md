@@ -40,4 +40,9 @@ This Android application is designed to help users learn to play the piano in an
 
 This app aims to create a fun and engaging experience for anyone interested in learning how to play the piano, combining both theory and practice.
 
+---
+
+## 💬 **Simple Multi-threaded Client-Server Chat App (C++ / Winsock2)**  
+In this C++ project, I built a client-server chat application using the Winsock2 API. The server listens on a specific port (default: 8080) and manages multiple client connections simultaneously through std::thread. Clients can send and receive real-time messages, while the server logs each message along with the sender’s IP and port. The application includes clean connection handling.
+
 
